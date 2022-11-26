@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/loginpage.css">
+       
+</head>
+<body>
+    
+    <h2>Welcome</h2>
+    <div class="signup">
+    </div>
+    <div class="login">
+        <div class="logbordr">
+            <div class="imgcontainer">
+                <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/happy-friendly-smiling-pit-bull-dog-susan-schmitz.jpg"
+                    alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input id="Username" type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input id="password" type="password" placeholder="Enter Password" name="psw" required>
+
+                <button onclick="login()" type="button">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="container" style="background-color:#f1f1f1">
+               <a href="signup.html" button type="button" class="cancelbtn" style="text-decoration: none"; >Sign Up</button> </a>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
